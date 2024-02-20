@@ -1,0 +1,105 @@
+:root {
+	--bg: #121212;
+	--bg-alt: #212121;
+	--accent: #c5050c;
+}
+
+body {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: var(--bg);
+	margin: 0;
+	padding: 0 20px;
+	gap: 4px;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Inconsolata", monospace;
+	margin: 0;
+}
+
+a {
+	margin: 0;
+}
+
+p {
+	margin: 8px;
+}
+
+#container {
+	border-radius: 12px;
+	padding: 32px 32px;
+	background-color: var(--bg-alt);
+	border: 3px solid var(--accent);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4em;
+	max-width: 60em;
+}
+
+#top-logo {
+	width: 20em;
+	margin-bottom: 1em;
+}
+
+#solution {
+	height: 20em;
+	margin-bottom: 1em;
+	border: 1px solid white;
+	margin-top: 1em;
+}
+
+#container > hr {
+	border-color: var(--accent);
+	width: 100%;
+}
+
+#container > h1 {
+	font-size: 2.5em;
+}
+
+#exercise-links {
+	align-self: start;
+}
+
+#exercise-links > li {
+	margin: 4px 0;
+}
+
+#exercise-links > li > a {
+	font-size: 20px;
+	color: white !important;
+}
+
+button, textarea, input {
+	border-radius: 12px;
+	border: 3px solid transparent;
+	background-color: var(--bg);
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+button {
+	border-color: var(--accent);
+}
+
+input, textarea {
+	border-color: #FFFFFF;
+	margin-right: 8px;
+}
+
+p {
+	font-size: 24px;
+}
